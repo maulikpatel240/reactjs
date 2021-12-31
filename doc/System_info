@@ -1,0 +1,73 @@
+Device Information
+Device Name : dd-107 Password : core@123
+
+Spark Information
+Your Spark Username :: maulik_patel
+and Password :: maulik / m@1994
+
+Gmail Information
+Email : programmer93.dynamicdreamz@gmail.com	dynamic@321
+dynamic@2021
+programmer11.dynamicdreamz@gmail.com
+
+Github
+username: maulikpatel93
+Password: dynamic@2021
+Personal access tokens: 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
+
+teamwave.com Information
+pssword: dynamic@2021
+=================================================================================
+Update Check in/out link: https://pms.dddemo.net/hrms/index.php?session=timeout&targeturl=dashboard.php 
+u:193
+P:193
+==========================================
+Sign in to TeamWave
+https://app.teamwave.com/#/signin?redirect=https:%2F%2Fapp.teamwave.com%2Fhrm%2F#%2Ftasks%2F43808
+programmer93.dynamicdreamz@gmail.com
+dynamic@2021
+======================================================
+Apache Web serverr in ubuntu 20
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04
+https://kssh.info/blog/uninstall-or-remove-phpmyadmin-from-linux-ubuntu-server-using-terminal/
+https://linuxhint.com/install_mysql_ubuntu_2004/
+
+hostname Ip	
+192.168.1.33
+
+sudo systemctl start apache2
+sudo systemctl stop apache2
+sudo systemctl restart apache2
+sudo systemctl reload apache2
+sudo systemctl disable apache2
+sudo systemctl enable apache2
+
+Step 5 — Setting Up Virtual Hosts (Recommended)
+sudo mkdir /var/www/your_domain
+sudo chown -R $USER:$USER /var/www/your_domain
+
+sudo chmod -R 755 /var/www/your_domain
+sudo nano /var/www/your_domain/index.html
+sudo nano /etc/apache2/sites-available/your_domain.conf
+
+
+
+
+sudo apt install mysql-server
+sudo mysql
+mysql>SHOW VARIABLES LIKE 'validate_password.%';
+mysql>use mysql
+mysql>select user, plugin, host FROM mysql.user;
+mysql>ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'root';
+mysql>FLUSH PRIVILEGES;
+sudo mysql
+sudo mysql -u root -p
+mysql>select user, authentication_string, plugin, host FROM mysql.user;
+
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
+
+UPDATE USER set authentication_string=PASSWORD("mynewpassword") where User='root';
+
+SET PASSWORD FOR 'phpmyadmin'@'localhost' = PASSWORD('password');
+
+SET PASSWORD FOR 'phpmyadmin'@'localhost' = PASSWORD('password')
