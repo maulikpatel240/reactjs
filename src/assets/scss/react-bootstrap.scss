@@ -1,0 +1,6 @@
+@import "react-variables";
+@import "~bootstrap/scss/bootstrap-utilities";
+//Generate utilites for Cursor
+$utilities: map-merge( $utilities, ( "cursor": ( property: cursor, values: auto default pointer wait text move help not-allowed, ), ));
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
